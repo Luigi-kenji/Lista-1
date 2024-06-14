@@ -1,18 +1,16 @@
 #include<stdio.h>
-int main()
+float main()
 {
-   int a,b,c;
-   printf("Insira o valor a: ");
-   scanf("%d",&a);
+    float prestacao, taxa, tempo, valor;
 
-   printf("Insira o valor b: ");
-   scanf("%d",&b);
-   c=b;
-   b=a;
-   a=c;
+    printf("insira o valor da prestacao: ");
+    scanf("%f",&valor);
+    printf("insira o valor da taxa: ");
+    scanf("%f",&taxa);
+    printf("insira o valor do tempo: ");
+    scanf("%f",&tempo);
 
-   printf ("Valor de a: " "%d \n", a);
 
-   printf ("Valor de b: " "%d", b);
-
+    prestacao=valor+(valor*(taxa/100)*tempo);
+    printf("%.5f",prestacao);
 }
