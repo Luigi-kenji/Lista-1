@@ -17,6 +17,7 @@ volume=comprimento*largura*altura;
 
  printf ("\n" "O volume da caixa e de: " "%.2f metros cubicos", volume);
 printf("\n");
+ printf("\n");
 
  system("pause");
 }
