@@ -1,0 +1,41 @@
+#include<stdio.h>
+void main()
+{
+    int A,B,C,D;
+    printf("Digite o valor da variável A: ");
+    scanf("%d",&A);
+    printf("Digite o valor da variável B: ");
+    scanf("%d",&B);
+    printf("Digite o valor da variável C: ");
+    scanf("%d",&C);
+    printf("Digite o valor da variável D: ");
+    scanf("%d",&D);
+//Adição
+    int Add_AB=A+B;
+    int Add_AC=A+C;
+    int Add_AD=A+D;
+    int Add_BC=B+A;
+    int Add_BD=B+D;
+    int Add_CD=C+D;
+//Multiplicações
+    int Mul_AB=A*B;
+    int Mul_AC=A*C;
+    int Mul_AD=A*D;
+    int Mul_BC=B*A;
+    int Mul_BD=B*D;
+    int Mul_CD=C*D;
+    printf("Valores da adição das variáveis:\n");
+    printf("Soma de A e B:%d \n",Add_AB);
+    printf("Soma de A e C:%d\n",Add_AC);
+    printf("Soma de A e D:%d\n",Add_AD);
+    printf("Soma de B e C:%d\n",Add_AC);
+    printf("Soma de B e D:%d\n",Add_AD);
+    printf("Soma de C e D:%d\n",Add_CD);
+    printf("Valores da multiplicação das variáveis:\n");
+    printf("Produto de A e B:%d \n",Mul_AB);
+    printf("Produto de A e C:%d\n",Mul_AC);
+    printf("Produto de A e D:%d\n",Mul_AD);
+    printf("Produto de B e C:%d\n",Mul_AC);
+    printf("Produto de B e D:%d\n",Mul_AD);
+    printf("Produto de C e D:%d",Mul_CD);
+}
