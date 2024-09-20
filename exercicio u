@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+
+{
+    float raio, volume;
+    const float PI = 3.14159;
+
+    printf("Informe o raio da esfera: ");
+    scanf("%f", &raio);
+
+    volume = (4.0 / 3.0) * PI * pow(raio, 3);
+
+    printf("O volume da esfera eh: %.2f unidades cubicas\n", volume);
+
+    return 0;
+}
