@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+
+{
+    float cotacao_dolar, quantidade_real, valor_conversao;
+
+    printf("Informe a cotassao do dolar (em reais por dolar): ");
+    scanf("%f", &cotacao_dolar);
+
+    printf("Informe a quantidade de reais: ");
+    scanf("%f", &quantidade_real);
+
+    valor_conversao = quantidade_real / cotacao_dolar;
+
+    printf("O valor em dolares eh: US$ %.2f\n", valor_conversao);
+
+    return 0;
+}
