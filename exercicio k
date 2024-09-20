@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main ()
+{
+  float dolar, cotacao, real;
+
+  printf("insira o valor em dolares que sera convertido para real: ");
+  scanf("%f", &dolar);
+
+  printf("insira o valor da cotacao do dolar atualmente: ");
+  scanf("%f", &cotacao);
+
+  real = dolar/cotacao;
+
+  printf("o valor em real da quantia de dolar inserido eh: %f", real);
+}
