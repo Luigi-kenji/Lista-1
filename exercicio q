@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() 
+{
+    float R, A;
+    const float PI = 3.14159265;
+
+    printf("Informe o valor do raio da circunferencia: ");
+    scanf("%f", &R);
+
+    A = PI * R * R;
+
+    printf("A area da circunferencia eh: %.2f\n", A);
+
+    return 0;
+}
