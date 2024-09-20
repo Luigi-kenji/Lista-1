@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+
+{
+    float A, B;
+    float soma, subtracao, multiplicacao, divisao;
+
+    printf("Informe o valor de A: ");
+    scanf("%f", &A);
+
+    printf("Informe o valor de B: ");
+    scanf("%f", &B);
+
+    soma = A + B;
+    subtracao = A - B;
+    multiplicacao = A * B;
+
+    if (B != 0) {
+        divisao = A / B;
+        printf("Divisao de A por B: %.2f\n", divisao);
+    } else {
+        printf("Divisao por zero nao eh possivel.\n");
+    }
+
+    printf("Soma de A e B: %.2f\n", soma);
+    printf("Subtrassao de A por B: %.2f\n", subtracao);
+    printf("Multiplicassao de A por B: %.2f\n", multiplicacao);
+
+    return 0;
+}
