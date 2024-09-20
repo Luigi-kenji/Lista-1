@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+    int a, b, aux;
+
+    printf("insira um valor para a: ");
+    scanf("%d", &a);
+
+    printf("insira um valor para b: ");
+    scanf("%d", &b);
+
+    aux = (a-b)*(a-b);
+
+    printf("%05d\n", aux);
+
+    return 0;
+}
