@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int x, y;
+    printf("insira um numero inteiro: ");
+    scanf("%d", &x);
+    y = x*x;
+    printf("%d\n", y);
+    return 0;
+}
