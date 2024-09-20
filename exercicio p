@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    float SM, PR, NS;
+
+    printf("Informe o valor do salario mensal: ");
+    scanf("%f", &SM);
+
+    printf("Informe o percentual de reajuste (em porcentagem): ");
+    scanf("%f", &PR);
+
+    NS = SM * (1 + PR / 100.0);
+
+    printf("O novo salário apos o reajuste eh: R$ %.2f\n", NS);
+
+    return 0;
+}
