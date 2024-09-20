@@ -1,0 +1,22 @@
+#include <stdio.h>
+void main()
+{
+    int a, b, c, d, p, s;
+
+    printf("Escreva o valor da variável a: ");
+    scanf("%d", &a);
+
+    printf("Escreva o valor da variável b: ");
+    scanf("%d", &b);
+
+    printf("Escreva o valor da variável c: ");
+    scanf("%d", &c);
+
+    printf("Escreva o valor da variável d: ");
+    scanf("%d", &d);
+
+    p = a*c;
+    s = b+d;
+
+    printf("O resultado de a*c eh: %d \nO resultado de b+d eh: %d", p, s);
+}
