@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int base, expoente;
+    long long int resultado;
+
+    printf("Digite a base da potencia: ");
+    scanf("%d", &base);
+
+    printf("Digite o expoente da potencia: ");
+    scanf("%d", &expoente);
+
+    resultado = (long long int) pow(base, expoente);
+
+    printf("%d elevado a %d eh igual a %lld\n", base, expoente, resultado);
+
+    return 0;
+}
