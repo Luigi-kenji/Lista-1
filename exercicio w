@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+
+{
+    float medida_pes, medida_metros;
+
+    printf("Digite a medida em pes: ");
+    scanf("%f", &medida_pes);
+
+    medida_metros = medida_pes * 0.3048;
+
+    printf("%.2f pes equivalem a %.2f metros.\n", medida_pes, medida_metros);
+
+    return 0;
+}
